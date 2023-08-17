@@ -1,0 +1,174 @@
+.container
+{
+    color: #223a70;
+    margin: 100px auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.form
+{
+    font-size: 16pt;
+    margin: 10px;
+    padding: 8px 4px;
+    white-space: nowrap;
+    width: 500px;
+}
+
+h1
+{
+    color: #223a70;
+    font-size: 32pt;
+}
+
+h2
+{
+    margin: 10px;
+}
+
+div
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.radioButton
+{
+    display: none;
+}
+
+.radioButton:checked + label
+{
+    background-color: #223a70;
+    color: white; 
+}
+
+label
+{
+    background-color: white;
+    border: 2px solid #223a70;
+    border-radius: 0.2em;
+    color: #223a70;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 34px;
+}
+
+button
+{
+    background-color: white;
+    border-radius: 0.2em;
+    color: #223a70;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+}
+
+button:hover
+{
+    background-color: #223a70;
+    color: white; 
+}
+
+.buttonNew
+{
+    background-color: white;
+    color: #223a70;
+}
+
+.buttonNew:hover
+{
+    background-color: #223a70;
+    color: white; 
+}
+
+.buttonProgress
+{
+    background-color: blue;
+    color: white;
+}
+
+.buttonProgress:hover
+{
+    background-color: white;
+    color: blue;
+}
+
+.buttonFinish
+{
+    background-color: #223a70;
+    color: white;
+}
+
+.buttonFinish:hover
+{
+    background-color: white;
+    color: #223a70;
+}
+
+.buttonDelete
+{
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+.buttonDelete:hover
+{
+    background-color: red;
+    border-color: white;
+    color: white;
+}
+
+table
+{
+    margin-top: 30px;
+}
+
+thead
+{
+    color: #223a70;
+}
+
+th
+{
+    border-bottom: 3px solid #223a70;
+    font-size: 14pt;
+}
+
+.tittle
+{
+    width: 500px;
+}
+
+.time
+{
+    width: 200px;
+}
+
+.state
+{
+    width: 150px;
+}
+
+.btnDelete
+{
+    width: 150px;
+}
+
+tbody
+{
+    color: #223a70;
+}
+
+td
+{
+    border-bottom: 2px solid #223a70;
+    padding: 10px;
+}
